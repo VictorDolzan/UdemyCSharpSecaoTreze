@@ -12,7 +12,8 @@ namespace CSharpSecaoTreze
     {
         public static void Main(string[] args)
         {
-           ExercicioFileInfo.ExecutarExercicioFileInfo();
+           //ExercicioFileInfo.ExecutarExercicioFileInfo();
+           ExercicioFileStream.ExecutarExercicioFileStream();
         }
     }
 }
