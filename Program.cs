@@ -15,7 +15,8 @@ namespace CSharpSecaoTreze
            //ExercicioFileInfo.ExecutarExercicioFileInfo();
            //ExercicioFileStream.ExecutarExercicioFileStream();
            //ExercicioBlocoUsing.ExecutarExercicioBlocoUsing();
-           ExercicioStreamWriter.ExecutarExercicioStreamWriter();
+           //ExercicioStreamWriter.ExecutarExercicioStreamWriter();
+           ExercicioDirectoryDirectoryInfo.ExecutarDirectoryDirectoryInfo();
         }
     }
 }
