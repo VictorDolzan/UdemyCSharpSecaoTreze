@@ -13,7 +13,6 @@ namespace CSharpSecaoTreze
         public static void ExecutarExercicioBlocoUsing()
         {
             string path = @"/home/victor/Desktop/File1.txt";
-
             try
             {
                 using (StreamReader sr = File.OpenText(path))

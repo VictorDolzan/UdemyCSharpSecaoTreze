@@ -17,16 +17,13 @@ namespace CSharpSecaoTreze
 
             FileInfo fileInfo1 = new FileInfo(sourcePath);
             fileInfo1.CopyTo(finalPath);
-
-            string[] lines = File.ReadAllLines(sourcePath);
-            foreach(string line in lines)
-            {
-                Console.WriteLine(line);
-            }
-
             try
             {
-
+                string[] lines = File.ReadAllLines(sourcePath);
+                foreach (string line in lines)
+                {
+                    Console.WriteLine(line);
+                }
             }
             catch (IOException e)
             {
